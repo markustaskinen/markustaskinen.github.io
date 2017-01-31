@@ -6,9 +6,12 @@
         <meta name="description" content="Ei mitään." />
         <link rel="shortcut icon" href="" />
         <title>Täällä on tyhjää &#128567;</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro" rel="stylesheet">
     </head>
         <body>
-            <nav>
+            <div class="container">
+            <nav class="navigation">
                 <ul>
                     <li><a href="#first">Home</a></li>
                     <li><a href="https://www.instagram.com/markustaskinen/">Portfolio</a></li>
@@ -25,19 +28,21 @@
             </nav>
             <header>
                 <h1>Täällä on tyhjää&#128009;</h1>
-                <img src="assets/kuva.jpg" alt="Lol pelkkää tyhjää"/>
+                <img class="resize" src="assets/kuva.jpg" alt="Lol pelkkää tyhjää"/>
             </header>
             <section>
-                <article id="first">
+                <article class="blog-post" id="first">
                     <h2>Tyhjääkin tyhjempää&#128171;</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id pulvinar ipsum. Nunc finibus dolor quis mauris viverra, vitae gravida mi molestie. Fusce eu nisl ut sem commodo dapibus quis quis nulla. Integer viverra justo ac urna luctus mattis. Duis at eleifend turpis. Curabitur auctor nunc quis malesuada luctus. Nunc consectetur, enim vel pellentesque rhoncus, sapien nisi semper felis, nec tempor erat velit a urna. Praesent porttitor tortor libero, ac tempor magna consectetur nec. Aliquam erat volutpat. Nunc ut metus lacus. Morbi sit amet posuere est.
                     </p>
-                    <img src="assets/kuva2.jpg" width="150%" alt="Lol pelkkää tyhjää"/>
+                    <img class="resize" src="assets/kuva2.jpg" width="150%" alt="Lol pelkkää tyhjää"/>
                 </article>
-                    <article id="second">
+                <article class="blog-post" id="second">
                     <h2>Lisää tyhjää&#127763;</h2>
                     <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus id pulvinar ipsum. Nunc finibus dolor quis mauris viverra, vitae gravida mi molestie. Fusce eu nisl ut sem commodo dapibus quis quis nulla. Integer viverra justo ac urna luctus mattis. Duis at eleifend turpis. Curabitur auctor nunc quis malesuada luctus. Nunc consectetur, enim vel pellentesque rhoncus, sapien nisi semper felis, nec tempor erat velit a urna. Praesent porttitor tortor libero, ac tempor magna consectetur nec. Aliquam erat volutpat. Nunc ut metus lacus. Morbi sit amet posuere est.</p>
+                    <div class="video-container">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/wIZwaesevUs" frameborder="0" allowfullscreen></iframe>
+                    </div>
                 </article>
             </section>
             <aside>
@@ -51,5 +56,6 @@
             <footer>
                 <p>Copyright 2017 Meikäläinen</p>
             </footer>
+            </div>
         </body>
 </html>
