@@ -127,16 +127,14 @@ footer p {
 }
 
 #logo {
-    width: 7%;
+    width: 9%;
     padding: 10%;
-    position: absolute;
-    right: 0;
+    float: right;
 }
 
 #copy {
-    position: absolute;
-    bottom: 0;
     text-align: center;
+    margin-bottom: 0;
 }
 
 @media screen and (max-width: 1024px){
