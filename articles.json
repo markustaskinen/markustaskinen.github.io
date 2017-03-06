@@ -1,0 +1,21 @@
+{
+    "news" : [
+        {
+        "header" : "header1",
+        "date" : "28/2/2017",
+        "content" : "text1"
+        },
+
+        {
+        "header" : "header2",
+        "date" : "28/2/2017",
+        "content" : "text2"
+        },
+
+        {
+        "header" : "header3",
+        "date" : "28/2/2017",
+        "content" : "text3"
+        }
+    ]
+}
