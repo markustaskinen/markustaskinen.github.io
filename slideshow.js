@@ -4,13 +4,12 @@ var play = true;
 var slides = null;
 var interval = null;
 
+
 window.onload = function() {
 
 $.getJSON( "https://taskinm2-17232.firebaseio.com/.json" , function (data) {
     dat = data;
     slides = dat.news.length;
-    console.log(dat);
-    console.log(dat.news[0].content);
     showSlide(slide);
     $("#playicon").hide();
     

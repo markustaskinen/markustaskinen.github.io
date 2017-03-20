@@ -83,6 +83,21 @@ p {
     color: lightgray;
 }
 
+.media {
+    margin: -10px;
+    margin-bottom: 6%;
+    background-image: url(assets/poster1.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+#media {
+    display: block;
+    margin: auto;
+    width: 80%;
+}
+
 .slideshow p {
     padding-bottom: 0;
 }
@@ -206,6 +221,10 @@ footer p {
     .info3 {
         background-attachment: scroll;
     }
+    
+    .media {
+        background-attachment: scroll;
+    }
 }
 
 @media screen and (max-width: 700px) {
@@ -213,6 +232,10 @@ footer p {
         height: 370px;
         background-attachment: scroll;
     } 
+    
+    #media {
+        width: 100%;
+    }
     
     .info {
         font-size: 1em;
