@@ -98,7 +98,7 @@ function updateDifficulty() {
       difficultyText.setText("Vaikea");
       music = game.add.audio('hard');
       arrowSpeed = 7;
-      gameLength = 310;
+      gameLength = 330;
       bpm = 270;
       break;
   }
